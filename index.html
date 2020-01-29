@@ -17,30 +17,45 @@
         #mapid { height: 100%; }
     </style>    
     <link rel="stylesheet" href="styl.css" type="text/css" />
-    <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css"/>
-    <script src="https://js.arcgis.com/4.9/"></script>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.14/"></script>
 </head>
 
-<body style="background-image: url('img_girl.jpg');"></body>>
 
-<header><p id = "tytul">Lorem Ipsum</p></header>
+<body>
+
+<header><p id = "tytul">3 największe miasta na świecie</p></header>
 
 <section >
     
     <article>
-        <p>Opis 1</p>
+        <p><b>Tokio, Japonia – 37,5 mln mieszkańców</b></p><br>
+        <img src="https://inzynieria.com/uploaded/articles/TOKIO_c768827f51.jpg" alt="Tokio">
+        <hr>
     </article>
 
     <article>
-        <p>Opis 3</p>
+        <p><b>Delhi, Indie – 28,5 mln mieszkańców</b></p><br>
+        <img src="https://inzynieria.com/uploaded/articles/DELHI_841950c91f.jpg" alt="Deli">
+        <hr>
     </article>
 
-    <article>
-        <p>Opis 2</p>
-    </article>
+    
+
+    
 
 </section>
-<aside><div id="mapid"></div></aside>
+
+<aside>
+
+    <button id="przycisk">Mapa satelitarna</button>
+    <button id="przycisk2">Mapa topograficzna</button>
+    <button id="przycisk3">Mapa OSM</button>
+    <button id="przycisk4">AGOL</button>
+    <br>
+    <div id="mapid"></div>
+    
+</aside>
 
 <footer><p id="stopka">Copyright 2020©</p></footer>
 
